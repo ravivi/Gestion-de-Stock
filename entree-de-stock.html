@@ -9,11 +9,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
-    <title>AdminBite admin Template - The Ultimate Multipurpose admin template</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/loader.png">
+
+    <title>Eagle PGI | Gestion de Stock</title>
     <!-- This page css -->
     <!-- Custom CSS -->
-    <link href="dist/css/style.min.css" rel="stylesheet">
+<!-- <link rel="apple-touch-icon" href="icon.png"> -->
+
+<!-- CSS Styles -->
+<link rel="stylesheet" type="text/css" href="assets/libs/bootstrap/dist/css/bootstrap.min.css">
+<!-- <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet"> -->
+<link href="dist/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+<link href="dist/css/style.min.css" rel="stylesheet">
+
+<link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
+
+<link href="assets/libs/summernote/dist/summernote-bs4.css" rel="stylesheet">
+<link href="assets/libs/dropzone/dist/min/dropzone.min.css" rel="stylesheet">
+<link href="assets/libs/select2/dist/css/select2.min.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -103,83 +117,7 @@
                         <!-- ============================================================== -->
                         <!-- Messages -->
                         <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="font-20 ti-email"></i>
-
-                            </a>
-                            <div class="dropdown-menu mailbox animated bounceInDown" aria-labelledby="2">
-                                <span class="with-arrow">
-                                    <span class="bg-danger"></span>
-                                </span>
-                                <ul class="list-style-none">
-                                    <li>
-                                        <div class="drop-title bg-danger text-white">
-                                            <h4 class="m-b-0 m-t-5">5 New</h4>
-                                            <span class="font-light">Messages</span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="message-center message-body">
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img">
-                                                    <img src="assets/images/rav.jpg" alt="user" class="rounded-circle">
-                                                    <span class="profile-status online pull-right"></span>
-                                                </span>
-                                                <div class="mail-contnet">
-                                                    <h5 class="message-title">Pavan kumar</h5>
-                                                    <span class="mail-desc">Just see the my admin!</span>
-                                                    <span class="time">9:30 AM</span>
-                                                </div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img">
-                                                    <img src="assets/images/users/2.jpg" alt="user" class="rounded-circle">
-                                                    <span class="profile-status busy pull-right"></span>
-                                                </span>
-                                                <div class="mail-contnet">
-                                                    <h5 class="message-title">Sonu Nigam</h5>
-                                                    <span class="mail-desc">I've sung a song! See you at</span>
-                                                    <span class="time">9:10 AM</span>
-                                                </div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img">
-                                                    <img src="assets/images/users/3.jpg" alt="user" class="rounded-circle">
-                                                    <span class="profile-status away pull-right"></span>
-                                                </span>
-                                                <div class="mail-contnet">
-                                                    <h5 class="message-title">Arijit Sinh</h5>
-                                                    <span class="mail-desc">I am a singer!</span>
-                                                    <span class="time">9:08 AM</span>
-                                                </div>
-                                            </a>
-                                            <!-- Message -->
-                                            <a href="javascript:void(0)" class="message-item">
-                                                <span class="user-img">
-                                                    <img src="assets/images/users/4.jpg" alt="user" class="rounded-circle">
-                                                    <span class="profile-status offline pull-right"></span>
-                                                </span>
-                                                <div class="mail-contnet">
-                                                    <h5 class="message-title">Pavan kumar</h5>
-                                                    <span class="mail-desc">Just see the my admin!</span>
-                                                    <span class="time">9:02 AM</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="nav-link text-center link" href="javascript:void(0);">
-                                            <b>See all e-Mails</b>
-                                            <i class="fa fa-angle-right"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+                       
                         <!-- ============================================================== -->
                         <!-- End Messages -->
                         <!-- ============================================================== -->
@@ -198,42 +136,7 @@
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                <img src="assets/images/rav.jpg" alt="user" class="rounded-circle" width="31">
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right user-dd animated flipInY">
-                                <span class="with-arrow">
-                                    <span class="bg-primary"></span>
-                                </span>
-                                <div class="d-flex no-block align-items-center p-15 bg-primary text-white m-b-10">
-                                    <div class="">
-                                        <img src="assets/images/rav.jpg" alt="user" class="img-circle" width="60">
-                                    </div>
-                                    <div class="m-l-10">
-                                        <h4 class="m-b-0">Steave Jobs</h4>
-                                        <p class=" m-b-0">varun@gmail.com</p>
-                                    </div>
-                                </div>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="javascript:void(0)">
-                                    <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
-                                <div class="dropdown-divider"></div>
-                                <div class="p-l-30 p-10">
-                                    <a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a>
-                                </div>
-                            </div>
-                        </li>
+                     
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
@@ -262,27 +165,11 @@
                                 </div>
                                 <div class="user-content hide-menu m-t-10">
                                     <h5 class="m-b-10 user-name font-medium">WMC</h5>
-                                    <a href="javascript:void(0)" class="btn btn-circle btn-sm m-r-5" id="Userdd" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <i class="ti-settings"></i>
-                                    </a>
+                                 
                                     <a href="javascript:void(0)" title="Logout" class="btn btn-circle btn-sm">
                                         <i class="ti-power-off"></i>
                                     </a>
-                                    <div class="dropdown-menu animated flipInY" aria-labelledby="Userdd">
-                                        <a class="dropdown-item" href="javascript:void(0)">
-                                            <i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
-                                        <a class="dropdown-item" href="javascript:void(0)">
-                                            <i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
-                                        <a class="dropdown-item" href="javascript:void(0)">
-                                            <i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="javascript:void(0)">
-                                            <i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="javascript:void(0)">
-                                            <i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
                             <!-- End User Profile-->
@@ -406,23 +293,12 @@
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-5 align-self-center">
-                        <h4 class="page-title">Entrer de Stock</h4>
+                        <h4 class="page-title">Entrée de Stock</h4>
                         <div class="d-flex align-items-center">
 
                         </div>
                     </div>
-                    <div class="col-7 align-self-center">
-                        <div class="d-flex no-block justify-content-end align-items-center">
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item">
-                                        <a href="#">Home</a>
-                                    </li>
-                                    <li class="breadcrumb-item active" aria-current="page">Library</li>
-                                </ol>
-                            </nav>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
             <!-- ============================================================== -->
@@ -439,30 +315,75 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <button class="btn btn-warning" type="submit">Tout</button>
-                                    <button class="btn btn-warning" type="submit">Nouvel Onglet</button>
-                                </h4>
-                                <div class="col-12 align-self-center">
-                                    <div class="d-flex no-block justify-content-end align-items-center">
-                                    <!-- Column -->
-                                    <div class="card-title">
-                                        <button class="btn btn-warning" type="submit">Afficher/Masquer les filtres</button>
-                                        <button class="btn btn-warning" type="submit">Reinitialiser </button>
-                                    </div>
-                                    <!-- Column -->
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
-                                    <div class="card">
+                            <div class="card-body ">
+                               
+                               
+                                <div class="col-sm-12 col-md-6 col-lg-6" >
+                                    <div class="card ">
                                         <div class="card-body">
-                                            <h4 class="card-title">Input With Placeholder</h4>
-                                            <h6 class="card-subtitle">Add attribute <code>placeholder="..."</code> to input area.</h6>
-                                            <form class="m-t-30">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="placeholder" placeholder="Placeholder Text">
+                                            
+                                            
+                                          
+
+                                            <form>
+                                             
+                                          
+                                              
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">Image</span>
+                                                    </div>
+                                                    <div class="custom-file">
+                                                        <input type="file" class="custom-file-input" id="inputGroupFile01">
+                                                        <label class="custom-file-label" for="inputGroupFile01">Ajouter une image</label>
+                                                    </div>
                                                 </div>
+                                                <div class="row">
+                                                    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                                        <label for="subject">Nom</label>
+                                                        <input type="text" id="subject" name="name" class="form-control" placeholder="Nom">
+                                                     </div>
+                                                    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                                        <label for="subject">Réference</label>
+                                                        <input type="text" id="subject" name="ref" class="form-control" placeholder="Référence">
+                                                   
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                                        <label for="subject">Prix HT</label>
+                                                        <input type="text" id="subject" name="^price" class="form-control" placeholder="Prix Hors Taxe">
+                                                    </div>
+                                                    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                                        <label for="subject">Prix TTC</label>
+                                                        <input type="text" id="subject" name="^price" class="form-control" placeholder="Prix TTC">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="subject">Quantité</label>
+                                                    <input type="number" id="subject" name="^price" class="form-control" placeholder="Prix de la Marchandise">
+                                                </div>
+                                               
+                                                <div class="form-group">
+                                                    <label for="">Description</label>
+                                                    <textarea name="reunion_msg" id="" cols="30" rows="10" class="form-control"></textarea>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                                        <label for="subject">Date</label>
+                                                        <input type="text"  onfocus="(this.type = 'date')" id="subject" name="date" class="form-control" placeholder="Date de la livraison">
+                                                   </div>
+                                                    <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                                        <label for="subject">Heure</label>
+                                                    <input type="text"  onfocus="(this.type = 'time')" id="subject" name="date" class="form-control" placeholder="Date de la livraison">
+                                               
+                                                    </div>
+                                                </div>
+                                               
+                                                <!-- <div id="summernote"></div> -->
+                                                
+                                                <button type="submit" class="btn btn-success m-t-20"> <i class="far fa-envelope"></i> valider</button>
+                                              
                                             </form>
                                         </div>
                                     </div>
